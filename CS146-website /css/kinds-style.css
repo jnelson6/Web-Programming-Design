@@ -1,0 +1,50 @@
+
+.duck-class{
+	margin-left: 5%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-bottom: 3%;
+}
+
+h1{
+	color: #a52323;
+	text-align: center;
+	margin-left: 5%;
+}
+
+figcaption{
+	color: #a52323;
+	letter-spacing: 2px;
+	text-align:center;
+}
+
+figure{
+    width:25%;
+}
+
+figure>img{
+	width: 100%;
+}
+
+figure a{
+	color: #a52323;
+	text-decoration: none;
+}
+
+figcaption a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+p {
+    color: #a52323;
+    text-align:center;
+    padding:10px;
+}
+
+.alone{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

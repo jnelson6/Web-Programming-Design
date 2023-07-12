@@ -1,0 +1,29 @@
+
+.question{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 5%;
+	padding: 1%;
+	margin: 1%;
+}
+.correct{
+	background-color: rgba(0,255,0,0.4);
+	border-radius: 8%;
+}
+.incorrect{
+	background-color: rgba(255,0,0,0.4);
+	border-radius: 8%;
+}
+#duck-quiz{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.question > span{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.question>p{
+	text-align: center;
+}

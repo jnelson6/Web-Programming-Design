@@ -1,0 +1,10 @@
+ul li.underline {text-decoration: underline;}
+li.no-underline a[href="#"] {text-decoration: none;}
+li.uppercase {text-transform: uppercase;}
+[class~=cleartext] {color: rgba(0,0,0,0);}
+[class='cleartext bg-black'] {background: black}
+[class='cleartext bg-red'] {background: red}
+[class='fg-white bg-black'] {background: black; color: white}
+[class='fg-purple bg-red'] {background: red; color: purple}
+li.shadow {text-shadow: 2px 5px 5px black}
+li.round {border: 3px solid #000; border-radius: 10px}

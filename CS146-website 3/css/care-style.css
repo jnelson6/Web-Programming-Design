@@ -1,0 +1,32 @@
+.red {
+    background-color: #a52323;
+    color: white;
+}
+
+.head{
+    text-decoration: underline;
+    text-decoration-color: #a52323;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.duckcare{
+	margin: 3% auto;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75%;
+}
+
+.duck-pic{
+    flex-grow: 1;
+    max-height: 500px;
+}
+
+.duck-care-header-pics{
+	width: 10%;
+	padding: 10px;
+}
+	

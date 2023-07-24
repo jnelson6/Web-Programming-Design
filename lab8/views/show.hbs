@@ -1,0 +1,47 @@
+<article>
+  <h1>{{show.name}}</h1>
+  <img src={{show.image.medium}} />
+  <dl>
+    <dt><span class="property-name">Language:</span></dt>
+    <dd>
+      {{#if show.language}}
+        {{show.language}}
+      {{else}}
+        NA
+      {{/if}}
+    </dd>
+
+    <dt><span class="property-name">Genres:</span></dt>
+    <dd>{{#if show.genres}}
+        <ul>
+          {{#each show.genres}}
+            <li> {{this}},</li>
+          {{/each}}
+        </ul>
+      {{else}}
+        NA
+      {{/if}}</dd>
+
+    <dt><span class="property-name">Rating:</span></dt>
+    <dd>{{#if show.rating.average}}
+        {{show.rating.average}}
+      {{else}}
+        NA
+      {{/if}}
+    </dd>
+    <dt><span class="property-name">Network:</span></dt>
+    <dd>{{#if show.network.name}}
+        {{show.network.name}}
+      {{else}}
+        NA
+      {{/if}}
+    </dd>
+    <dt><span class="property-name">Summary:</span></dt>
+    <dd>{{#if show.summary}}
+        {{show.summary}}
+      {{else}}
+        NA
+      {{/if}}
+    </dd>
+  </dl>
+</article>

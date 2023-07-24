@@ -1,11 +1,23 @@
 {
-  "name": "lab10",
+  "name": "julia-lab10",
   "version": "1.0.0",
-  "description": "lab 10",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
   },
+  "keywords": [],
   "author": "Julia Nelson 10432982",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.4",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
 }

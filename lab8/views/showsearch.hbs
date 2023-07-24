@@ -1,0 +1,12 @@
+<div style="display:block">
+  <h1>Search Results</h1>
+  <section>
+    {{#if searchResults}}
+      <ul class="search-results">
+        {{#each searchResults}}
+          <li><a href="/show/{{this.show.id}}"> {{this.show.name}}</a></li>
+        {{/each}}
+      </ul>
+    {{/if}}
+  </section>
+</div>
